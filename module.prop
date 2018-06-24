@@ -1,0 +1,9 @@
+id=AMW
+name=Android Messages for Web
+version=v1.0
+versionCode=01
+author=Digitalhigh
+description=Enable Android Messages for Web
+support=
+donate=https://paypal.me/digitalhigh
+minMagisk=1530
