@@ -28,10 +28,10 @@ AUTOMOUNT=true
 PROPFILE=false
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=true
+LATESTARTSERVICE=false
 
 ##########################################################################################
 # Installation Message
@@ -84,6 +84,4 @@ set_permissions() {
   set_perm $UNITY$SYS/bin/sqlite3 0 0 0755
    # The following is default permissions, DO NOT remove
   set_perm_recursive  $MODPATH  0  0  0755  0644
-  set_perm $MODPATH/service.sh 0 0 0755
-
 }
